@@ -1,0 +1,49 @@
+.fullScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+ 
+    /* border: 1px solid white; */
+}
+
+.fullScreen>img {
+    border-radius: 60%;
+    /* border: 1px solid white; */
+    width: 20rem;
+    height: 20rem;
+}
+
+.cards {
+    display: grid;
+    grid: repeat(2, 1fr)/repeat(5, 1fr);
+    gap: 1.5rem;
+    justify-items: center;
+    align-items: center;
+    margin: 3rem auto;
+    perspective: 1000px;
+
+}
+
+
+.beastCards {
+    width: 14rem;
+    height: 10rem;
+    cursor: pointer;
+    transition: all 1.3s ease-out;
+   
+   
+}
+.beastCards:hover{
+    box-shadow: 2px 2px 122px silver;
+    transform: rotate3d(10,0,0,20deg) scaleZ(0.6);
+    border-radius: 12px;
+
+}
+
+.beastCards>img {
+    /* border: 1px solid salmon; */
+    width: 14rem;
+    height: 10rem;
+    border-radius: 12px;
+}

@@ -1,0 +1,9 @@
+*{
+   padding: 0rem;
+   margin: 0rem;
+   box-sizing: border-box;
+}
+
+:root{
+   background : linear-gradient(90deg,rgb(15, 15, 15),rgb(35, 45, 63))
+}
